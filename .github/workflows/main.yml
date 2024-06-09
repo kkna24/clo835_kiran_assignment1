@@ -28,7 +28,7 @@ jobs:
         ECR_REPOSITORY: webapp-and-db-repository
         IMAGE_TAG: v0.1
       run: |
-        cd mycode/git/
+        
         ls -ltra
         # Docker build using the standard Dockerfile
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:webapp-$IMAGE_TAG -f Dockerfile .
