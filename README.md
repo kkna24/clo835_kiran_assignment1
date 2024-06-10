@@ -6,7 +6,7 @@ sudo apt-get install mysql-client -y
 # Running application locally
 pip3 install -r requirements.txt
 sudo python3 app.py
-# Building and running 2 tier web application locally
+# Building and running 2 tier web application locally 
 ### Building mysql docker image 
 ```docker build -t my_db -f Dockerfile_mysql . ```
 
